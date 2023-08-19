@@ -46,7 +46,12 @@ body{
     outline: none;
     color: white;
     border-radius: 5px;
+    transition: all 0.2s ease;
 }
+ .search-box button:active{
+    transform: scale(0.96);
+ }
+ 
 .result{
     position: relative;
 }
